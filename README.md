@@ -24,11 +24,19 @@ Requisitos:
 
 Tener Java 17 o superior instalado.
 
-Tener MySQL en ejecución.
-
-Tener configurado Redis (opcional, pero recomendado para caching).
-
 Tener Maven instalado.
 
+Ejecutar con Maven: mvn spring-boot:run
 
+# Probar la API
+
+La API estará disponible en:
+- http://localhost:8080
+
+Para ver la documentación Swagger:
+- http://localhost:8080/swagger-ui.html
+
+# Importar colección en Postman
+
+Puedes importar el archivo collections.json en Postman para probar los endpoints
 
